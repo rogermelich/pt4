@@ -1,0 +1,15 @@
+ProvaBundle\Entity\Product:
+    type: entity
+    table: null
+    repositoryClass: ProvaBundle\Repository\ProductRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

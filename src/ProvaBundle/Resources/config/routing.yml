@@ -1,0 +1,12 @@
+prova_homepage:
+    path:     /
+    defaults: { _controller: ProvaBundle:Default:index }
+    
+prova_hola:
+    path:     /prova/hola
+    defaults: { _controller: ProvaBundle:Default:hola }
+
+prova_variable:
+    path:     /prova/variable
+    defaults: { _controller: ProvaBundle:Default:variable }
+    methods: [GET]

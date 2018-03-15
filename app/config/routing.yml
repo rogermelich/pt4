@@ -1,0 +1,14 @@
+prova:
+    resource: "@ProvaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+# EasyAdmin
+easy_admin_bundle:
+    resource: "@EasyAdminBundle/Controller/AdminController.php"
+    type:     annotation
+    prefix:   /admin
+
